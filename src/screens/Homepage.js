@@ -91,7 +91,7 @@ export default function Homepage(){
             },{
                 text: "Yes", onPress: ()=> {
                     const data = list.filter((item, index)=>index !==idx)
-                    setList(data)
+                setList(data)
                 }
             }])
         
